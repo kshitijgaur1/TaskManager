@@ -36,18 +36,9 @@ A full-stack task management application built with Golang backend and React fro
    go mod download
    ```
 
-3. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your database credentials
-   ```
+3. Set up environment variables:(For PostgresDB)
 
-4. Run database migrations:
-   ```bash
-   go run cmd/migrate/main.go
-   ```
-
-5. Start the server:
+4. Start the server:
    ```bash
    go run cmd/server/main.go
    ```
